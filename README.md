@@ -14,7 +14,7 @@ On another note, I wasn’t thrilled with the code examples in that recent post.
 
 ## Do It at the Right Abstraction Level
 
-The `Style` class was introduced in Vaadin 10 as part of the `Element` API, a lower-level API for accessing the DOM. It’s designed to wrap HTML elements as Vaadin Flow UI components. For most components, `Style` is also exposed to the higher-level `Component` API via the `HasStyle` interface. In both cases, the `Style` API modifies the `style` property of an HTML element.
+The [Style class](https://vaadin.com/api/platform/current/com/vaadin/flow/dom/Style.html) was introduced in Vaadin 10 as part of the `Element` API, a lower-level API for accessing the DOM. It’s designed to wrap HTML elements as Vaadin Flow UI components. For most components, `Style` is also exposed to the higher-level `Component` API via the `HasStyle` interface. In both cases, the `Style` API modifies the `style` property of an HTML element.
 
 Here’s a key tip: watch out for `getElement()` calls. They’re almost always a sign that you’re doing it wrong. When building applications, you should generally retrieve the `Style` reference from the component itself. So instead of this:
 
