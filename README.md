@@ -9,7 +9,7 @@ Sure, if your colleague primarily works with CSS, they might think this opinion 
 
 Yes, working with raw CSS has its benefits, like making it easier to delegate styling tasks to a specialist who might not know Java. But if you’re a Java developer, don’t feel ashamed of styling components in Java. It really doesn’t make sense to dive into CSS just to make a button green. The best approach depends on your application, skills, and requirements. Personally, I’m proficient in CSS, but when I’m working in my Java "bubble" with Vaadin apps, I prefer to handle smaller tweaks using the pure Java API.
 
-On another note, I wasn’t thrilled with the code examples in that recent post. If you choose to style components with Java, don’t just copy and paste from there! Let me share a few tips on how to style your components *the Java way*.
+On another note, I wasn’t thrilled with the code examples in that recent post. If you choose to style components with Java, don’t just copy and paste from there! Let me share a few tips on how to style your components *the Java style*.
 
 
 ## Do It at the Right Abstraction Level
